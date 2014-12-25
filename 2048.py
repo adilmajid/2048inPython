@@ -72,6 +72,7 @@ def resetCombinationBoard():
 	#next, 4 and 4 will combine, and the row will be 8, 0, 0, 8
 	#next, 8 and 8 will combine. so without combinationboard,
 	#our final results will be 16, 0, 0, 0 instead of 4, 4, 8, 0
+	#hence we use combinationboard
 
 	combinationboard = []
 	for row in range(canvas.data.boardRows):
