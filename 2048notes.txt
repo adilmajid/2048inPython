@@ -1,0 +1,23 @@
+Adil Majid Final Project
+Name: Adil Majid
+Andrew ID: amajid
+
+****
+
+For my final project, I have built the game 2048. It is based on this game: https://gabrielecirulli.github.io/2048/
+
+Every tile has a value of a power of 2. You begin with either the tile 2, 4, or 8. You can combine tiles by moving them up, down, left, or right, using the up/down/left/right keys on your keypad. You can not move diagonally. Every time you move a tile, a new one will appear in a random spot on the board. All new tiles that appear on the board have a (randomly chosen) value of either 2, 4, or 8. 
+
+The object of the game is to combine tiles until you have created a 2048 tile. You can combine tiles that are of the same value (e.g.: you can move a 2 tile into another 2 tile to create a 4 tile. But, you can not combine a 2 tile with a 4 tile, for instance). At that point, you have “won” the game, but the game will continue indefinitely, so you can keep creating bigger tiles (like 4096, 8192, and so on). 
+
+The game ends when you have no more moves. This occurs when there are no more free spots on the board because you can not combine any more tiles, and thus new tiles are unable to appear.
+
+*******
+
+A couple of notes: 
+
+One: 
+Because there is no animation, sometimes it will look like a piece has not moved. However, the piece has indeed moved. This is not a bug: this happens because while the piece HAS moved, a new piece has appeared on the board has appeared into the exact spot that the other piece was placed in before. 
+
+Two:
+The game is not meant to end after the tile "2048" appears, it can go on more or less indefinitely. The list of colors in my program supports tile values of up until 131,072, which is beyond a perfect score and is more or less impossible to achieve, so the game can hypothetically go on indefinitely. 
